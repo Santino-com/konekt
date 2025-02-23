@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(132, 172, 209)
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navRight{
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: rgb(50, 50, 53);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.navRight a{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: justify;
+}
+
+.navRight a:hover{
+    color: black;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.mainContainer{
+    margin-left: 180px;
+    padding: 0 10px;
+    height: 3200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.profile{
+    
+}
